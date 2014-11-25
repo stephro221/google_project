@@ -46,9 +46,70 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*end of CSS reset */
 
-/* End of CSS reset */
+#navbar li {
+	float: right;
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	font-size: 1.25em;
 
-html {
-	outline: 1px solid black;
+
+}
+ #navbar li:hover {
+ 	color: blue;
+ 	text-decoration: underline;
+ }
+
+
+#center {
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 400px;
+
+}
+
+input {
+ 	position: relative;
+ 	width: 50%;
+ }
+
+#button {
+	display: block;
+	margin-top: 10px;
+
+}
+
+#button button {
+	font-family: Arial;
+
+}
+
+#footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-right: 1px;
+	margin-left: 1px;
+	background-color: #F2F2F2;
+	}
+
+#right li {
+	float: right;
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.25em;
+}
+
+#left li {
+	float: left;
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.25em;
 }
